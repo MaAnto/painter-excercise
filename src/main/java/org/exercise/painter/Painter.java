@@ -1,7 +1,7 @@
 package org.exercise.painter;
 
 public class Painter {
-    String nome, colore;
+    final String nome, colore;
 
     public Painter(String name, String color){
         nome = name;

@@ -5,8 +5,12 @@ public class Application {
 
   public static void main(String[] args) {
     Scanner in=new Scanner(System.in);
+
+    System.out.println("Di che colore vuoi che dipinga?");
     String color= in.next();
-    Painter giotto= new Painter("Giotto", color);
-    System.out.println(giotto.getName() + " sta dipingendo di colore " + giotto.getColor());
+
+    Painter pittore= new Painter("Giotto", color);
+
+    System.out.println(pittore.getName() + " sta dipingendo di colore " + pittore.getColor());
   }
 }
