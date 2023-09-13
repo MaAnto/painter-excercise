@@ -23,7 +23,7 @@ public class Application {
   public static boolean controlloColori(String input, ColorList listaColori){
     for(int i=0;i<listaColori.getLenght();i++){
       if(input.equalsIgnoreCase(listaColori.getNome(i))){ //controllare che il colore inserito sia un colore esistente
-        return true; //termina il programma
+        return true;
       }
     }
     return false;
